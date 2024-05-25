@@ -1,0 +1,192 @@
+.choose{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.choose h2{
+    font-size: 40px;
+    font-family:'Aoenik-Regular';
+    text-align: center;
+}
+
+.choose-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.choose-left{
+    flex-basis: 45%;
+}
+
+.choose-left span{
+    background: #F2F4FA;
+    padding: 6px 10px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-family:'Aoenik-Regular';
+}
+
+.choose-left h2{
+    text-align: left;
+    font-size: 36px;
+    font-family:'Aoenik-Regular';
+    margin-top: 30px;
+}
+
+.choose-left p{
+    font-family:'Aoenik-Regular';
+    margin-top: 10px;  
+    line-height: 28px;
+}
+
+.choose-left button{
+    padding: 10px 14px;
+    background: #1926C7;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-family:'Aoenik-Regular';
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.choose-right{
+    flex-basis: 47%;
+    width: 400px;
+    height: 400px;
+    border-radius: 40px;
+    background: #F2F4FA;
+}
+
+.choose-right img{
+    width: 100%;
+}
+
+.team-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: #F2F4FA;
+    border-radius: 40px;
+    overflow: hidden; /* Ensure the rotating images stay within the team-img div */
+}
+
+.team-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensure the team-wrap div is above rotating images */
+    width: 150px;
+    height: 150px;
+    background: #C3C7FD;
+    border-radius: 50%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-wrap img {
+    width: 30%;
+    background: transparent;
+}
+
+.orbit-one {
+    position: absolute;
+    width: 60px; 
+    height: 60px; 
+    background: #2E2E2E; /* Adjust the background color of the rotating images */
+    border-radius: 50%;
+    top: calc(50% - 70px); /* Adjust the distance from the top of the team-img div */
+    left: calc(50% + 100px);
+}
+
+.orbit-two {
+    position: absolute;
+    width: 60px; 
+    height: 60px; 
+    background: #2E2E2E; /* Adjust the background color of the rotating images */
+    border-radius: 50%;
+    top: calc(50% + 50px); /* Adjust the distance from the top of the team-img div */
+    left: calc(50% + 100px)
+}
+
+.orbit-three {
+    position: absolute;
+    width: 60px; 
+    height: 60px; 
+    background: #2E2E2E; /* Adjust the background color of the rotating images */
+    border-radius: 50%;
+    top: calc(50% + 20px); /* Adjust the distance from the top of the team-img div */
+    left: calc(50% - 170px);
+}
+
+.orbit-four {
+    position: absolute;
+    width: 60px; 
+    height: 60px; 
+    background: #2E2E2E; /* Adjust the background color of the rotating images */
+    border-radius: 50%;
+    top: calc(50% - 100px); /* Adjust the distance from the top of the team-img div */
+    left: calc(50% - 150px);
+}
+
+
+@media screen and (max-width:900px){
+    .choose{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+
+    .choose h2{
+        font-size: 28px;
+        line-height: 42px;
+        font-family:'Aoenik-Regular';
+        text-align: center;
+    }
+    
+    .choose-con{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+        gap: 30px;
+    }
+
+    .choose-left{
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+       
+    .choose-left h2{
+        text-align: center;
+        font-size: 24px;
+        line-height: 32px;
+        font-family:'Aoenik-Regular';
+        margin-top: 30px;
+    }
+
+    .choose-right{
+        flex-basis: 100%;
+        width: 100%;
+        min-height: 250px;
+        border-radius: 40px;
+        background: #F2F4FA;
+    }
+
+    #reverse-choose{
+        flex-direction: column-reverse;
+    }
+     
+}
