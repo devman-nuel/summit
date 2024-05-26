@@ -1,0 +1,135 @@
+.pricing{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 120px;
+
+}
+
+.pricing h2{
+    font-size: 40px;
+    font-family:'Aoenik-Regular';
+    text-align: center;
+}
+
+.pricing-con{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.pricing-box{
+    max-width: 280px;
+    border: 1px solid #E4E5F4;
+    padding: 30px 25px;
+    border-radius: 30px;
+}
+
+.pricing-name span{
+    font-family:'Aoenik-Regular';
+}
+
+.pricing-name h1{
+    font-family:'Aoenik-Regular';
+    margin-top: 10px;
+}
+
+.pricing-name h1 strong{
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0;
+}
+
+.pricing-features{
+    margin-top: 40px;
+    font-family:'Aoenik-Regular';
+}
+
+.pricing-features span{
+    font-weight: 500;
+}
+
+.pricing-list{
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+ margin-top: 20px;
+}
+
+.pricing-detail{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family:'Aoenik-Regular';
+}
+
+.pricing-detail img{
+    width: 20px;
+    height: 20px;
+}
+
+.pricing-features button{
+    width: 100%;
+    margin-top: 50px;
+    border: 1px solid #C1C5EE;
+    padding: 15px 0;
+    border-radius: 60px;
+    font-family:'Aoenik-Regular';
+    background: transparent;
+    cursor: pointer;
+}
+
+.pricing-mainbox{
+    background: #F2F4FA;
+    border: 1px solid #E4E5F4;
+    padding: 30px 25px;
+    border-radius: 30px;
+    color: #1926C7;
+}
+
+.pricing-mainbox .pricing-features button{
+    background: #1926C7;
+    color: #fff;
+    font-family:'Aoenik-Regular';
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:900px){
+    .pricing{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 60px;
+    
+    }
+
+    .pricing h2{
+        font-size: 28px;
+        line-height: 42px;
+        font-family:'Aoenik-Regular';
+        text-align: center;
+    }
+
+    .pricing-con{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 30px;
+        gap: 20px;
+    }
+
+    
+    .pricing-box{
+        border: 1px solid #E4E5F4;
+        padding: 30px 25px;
+        border-radius: 30px;
+    }
+
+    .pricing-mainbox{
+        background: #F2F4FA;
+        border: 1px solid #E4E5F4;
+        padding: 30px 25px;
+        border-radius: 30px;
+        color: #1926C7;
+    }
+}
