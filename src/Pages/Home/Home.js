@@ -23,7 +23,7 @@ function Home() {
           </div>
 
           <div className='pad'>
-            <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1716716571/GDqYi9DXUAAMIgg_vzf8du.jpg' alt=''></img>
+            <img src='https://res.cloudinary.com/dxnukbo0u/image/upload/v1716725528/Frame_2530_ccnqaj.jpg' alt=''></img>
           </div>
         </div>
 
