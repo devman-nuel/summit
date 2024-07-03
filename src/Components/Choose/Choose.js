@@ -30,7 +30,7 @@ function Choose() {
 
             <div className='choose-left'>
                 <span>Must know</span>
-                <h2>Wultz, Streamline Your Day with Seamless Task Management</h2>
+                <h2>Streamline Task with teams on WULTZ Task Manager</h2>
                 <p>Say goodbye to chaos and hello to a streamlined workflow that helps you achieve your goals.</p>
                 <button>Get Started</button>
             </div>
