@@ -71,6 +71,7 @@
     width: 25px;
     height: 25px;
     object-fit: cover;
+    margin-top: 10px;
 }
 
 .footer-text{
