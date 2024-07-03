@@ -67,6 +67,12 @@
     padding: 10px;
 }
 
+.footer-box img{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
 .footer-text{
     display: flex;
     justify-content: space-between;
